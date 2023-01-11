@@ -89,26 +89,6 @@
             <p class="text-zinc-400 mb-4">These are all the interactions with a contract deployed to the <a
                     class="text-blue-500 underline italic chain-link" href="#" target="_blank"></a>.</p>
 
-            <h2 id="contract-read" class="text-xl text-zinc-100 mb-4">Contract Read</h2>
-
-            <p class="text-zinc-400 mb-4">Making a read request for <span
-                    class="bg-zinc-700 text-zinc-200 py-1 px-1.5 rounded">getGreeting</span>.</p>
-
-            <form id="form-contract-read">
-                <div class="mb-2">
-                    <button disabled type="submit"
-                        class="h-10 mb-2 bg-zinc-200 text-zinc-800 px-5 rounded-full font-medium disabled:bg-opacity-30 hover:bg-white transition-colors ease-in-out duration-200">
-                        Get Greeting
-                    </button>
-                </div>
-                <div class="mb-8">
-                    <label class="block mb-2 text-zinc-600">Response</label>
-                    <code class="block bg-zinc-500 p-6 rounded bg-zinc-800 text-zinc-200 overflow-scroll">
-                        <pre id="pre-contract-read"></pre>
-                    </code>
-                </div>
-            </form>
-
             <h2 id="contract-write" class="text-xl text-zinc-100 mb-4">Mint here</h2>
 
             <p class="text-zinc-400 mb-4">Making a write request for <span
@@ -116,14 +96,14 @@
 
             <form id="form-contract-write">
                 <div class="mb-6">
-                    <label class="block mb-2 text-zinc-600">New Minting</label>
+                    <label class="block mb-2 text-zinc-600">Your Goerli MetaMask address</label>
                     <input disabled class="h-10 w-full px-3 rounded border bg-white disabled:opacity-30"
-                        id="input-contract-write" type="text" name="greeting" placeholder="Ex: Your greeting..." />
+                        id="input-contract-write" type="text" name="greeting" placeholder="Ex: Your address..." />
                 </div>
                 <div class="mb-2">
                     <button disabled type="submit"
                         class="h-10 mb-2 bg-zinc-200 text-zinc-800 px-5 rounded-full font-medium disabled:bg-opacity-30 hover:bg-white transition-colors ease-in-out duration-200">
-                        Set Greeting
+                        Mint now
                     </button>
                 </div>
                 <div class="mb-8">
